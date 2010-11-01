@@ -45,7 +45,7 @@ a separate table and making it dead-simple to define and manage preferences.
 +preferences+ requires an additional database table to work.  You can generate
 a migration for this table like so:
 
-  script/generate preferences
+  rails generate preferences
 
 Then simply migrate your database:
 
