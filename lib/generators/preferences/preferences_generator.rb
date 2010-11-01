@@ -1,6 +1,6 @@
 require 'rails/generators/migration'
 
-class PreferencesGenerator < Rails::Generators::NamedBase
+class PreferencesGenerator < Rails::Generators::Base
   include Rails::Generators::Migration
   
   def install_preferences
